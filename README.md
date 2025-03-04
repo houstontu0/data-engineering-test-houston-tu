@@ -9,10 +9,12 @@
 - Document design decisions in the README. 
 
 
-
-Found a dataset from kaggle (simple google search)
-Scanned the data for any inconsistencies
-Data seemed alright, decided to remove a column to create a pipeline for missing values
+# Design Decisions
+Found a dataset from kaggle.com (simple google search) <br>
+Visually scanned the data for any inconsistencies <br>
+Data seemed alright, decided to remove a column to create a pipeline for missing values <br>
+Columns with missing values will simply be removed instead of replaced <br>
+The user was given the choice to remove or leave the column <br>
 
 
 
